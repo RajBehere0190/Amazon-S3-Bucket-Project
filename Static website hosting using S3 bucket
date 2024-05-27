@@ -1,3 +1,12 @@
+1.After the creation of Bucket go to the properties,in the static website hosting section.
+2.Click on edit and enable the static website hosting.
+3.Then go to the hosting type section and select the option "Host a static website".
+4.Now in the index document select the file you uploaded.In my case I uploaded the index.html file which I am hosting.
+5.Hit the save chages button.
+
+Note:-Even after doing this and clicking the URL of the statict hosting section,the webpage will show 403 forbiddeb error because some changes to allocate access should be defined within 
+the json file.
+
 1.After the bucket is created,click on the bucket name and got to the permissions of the bucket.
 2.Go to the Bucket Policy Section and click on edit.
 3.Click on New add statements and the json file format will occur and make modifications in it
@@ -19,7 +28,8 @@
     ]
 }
 
-3.1 Also if we want to restrict the access of the IAM user on the actions performing on the buckets we can simply modify the json format as below:
+3.1 Also if we want to restrict the access of the IAM user on the actions performing on the buckets we can simply modify the json format as below but we added condition
+in it as only root user can have the access control over the bucket,other than no one can access.
 
 {
   "Version": "2012-10-17",
@@ -43,3 +53,6 @@
   ]
 }
 
+4.After this all modifications in json file,click on the save changes.
+
+Note:- Make sure in the bucket properties
