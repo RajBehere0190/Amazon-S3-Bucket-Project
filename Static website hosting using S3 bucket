@@ -1,3 +1,20 @@
 1.After the bucket is created,click on the bucket name and got to the permissions of the bucket.
 2.Go to the Bucket Policy Section and click on edit.
 3.Click on New add statements and the json file format will occur and make modifications in it
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "PublicReadGetObject",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": [
+                "s3:GetObject"
+            ],
+            "Resource": [
+                "arn:aws:s3:::<Bucket-Name>/*"
+            ]
+        }
+    ]
+}
+
