@@ -7,9 +7,9 @@
 Note:-Even after doing this and clicking the URL of the statict hosting section,the webpage will show 403 forbiddeb error because some changes to allocate access should be defined within 
 the json file.
 
-1.After the bucket is created,click on the bucket name and got to the permissions of the bucket.
-2.Go to the Bucket Policy Section and click on edit.
-3.Click on New add statements and the json file format will occur and make modifications in it
+6.After the bucket is created,click on the bucket name and got to the permissions of the bucket.
+7.Go to the Bucket Policy Section and click on edit.
+8.Click on New add statements and the json file format will occur and make modifications in it
 
 {
     "Version": "2012-10-17",
@@ -28,7 +28,7 @@ the json file.
     ]
 }
 
-3.1 Also if we want to restrict the access of the IAM user on the actions performing on the buckets we can simply modify the json format as below but we added condition
+8.1 Also if we want to restrict the access of the IAM user on the actions performing on the buckets we can simply modify the json format as below but we added condition
 in it as only root user can have the access control over the bucket,other than no one can access.
 
 {
@@ -53,6 +53,6 @@ in it as only root user can have the access control over the bucket,other than n
   ]
 }
 
-4.After this all modifications in json file,click on the save changes.
+9.After this all modifications in json file,click on the save changes.
 
-Note:- Make sure in the bucket properties
+Now again refresh the URL where you are hosting the file and the file will reflect you on the webpage.
