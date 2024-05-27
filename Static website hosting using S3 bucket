@@ -1,6 +1,7 @@
 1.After the bucket is created,click on the bucket name and got to the permissions of the bucket.
 2.Go to the Bucket Policy Section and click on edit.
 3.Click on New add statements and the json file format will occur and make modifications in it
+
 {
     "Version": "2012-10-17",
     "Statement": [
@@ -16,5 +17,29 @@
             ]
         }
     ]
+}
+
+3.1 Also if we want to restrict the access of the IAM user on the actions performing on the buckets we can simply modify the json format as below:
+
+{
+  "Version": "2012-10-17",
+  "Id": "RestrictBucketToIAMUsersOnly",
+  "Statement": [
+    {
+      "Sid": "AllowOwnerOnlyAccess",
+      "Effect": "Deny",
+      "Principal": "*",
+      "Action": "s3:*",
+      "Resource": [
+        "arn:aws:s3:::your-bucket-name/*",
+        "arn:aws:s3:::your-bucket-name"
+      ],
+      "Condition": {
+        "StringNotEquals": {
+          "aws:PrincipalArn": "arn:aws:iam::AWS_ACCOUNT_ID:root"
+        }
+      }
+    }
+  ]
 }
 
