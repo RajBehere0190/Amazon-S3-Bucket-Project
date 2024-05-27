@@ -1,3 +1,5 @@
+Step by step configuration process to host the static website.
+
 1.After the creation of Bucket go to the properties,in the static website hosting section.
 2.Click on edit and enable the static website hosting.
 3.Then go to the hosting type section and select the option "Host a static website".
