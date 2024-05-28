@@ -37,3 +37,7 @@ Use IAM roles and policies to manage access to S3 buckets. IAM roles provide tem
 Common S3 error messages and their resolutions
 
 Understand common S3 error messages like access denied, bucket not found, and exceeded bucket quota. Troubleshoot and resolve these errors by checking permissions, bucket configurations, and network connectivity.
+
+Note:-
+(Do check out my linkedin post regarding the project:-
+https://www.linkedin.com/posts/rajbehere_aws-s3-cloudcomputing-activity-7201118192214171648-FQA3?utm_source=share&utm_medium=member_desktop)
