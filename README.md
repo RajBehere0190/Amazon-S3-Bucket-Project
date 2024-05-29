@@ -51,7 +51,9 @@ A data lake is a centralized repository that allows you to store all your struct
 **How it works**
 
 Amazon S3 stores data as objects within buckets. An object is a file and any metadata that describes the file. A bucket is a container for objects. To store your data in Amazon S3, you first create a bucket and specify a bucket name and AWS Region. Then, you upload your data to that bucket as objects in Amazon S3. Each object has a key (or key name), which is the unique identifier for the object within the bucket.
+                                                                                                 S3 provides features that you can configure to support your specific use case. For example, you can use S3 Versioning to keep multiple versions of an object in the same bucket, which allows you to restore objects that are accidentally deleted or overwritten. Buckets and the objects in them are private and can only be accessed with explicitly granted access permissions. You can use bucket policies, AWS Identity and Access Management (IAM) policies, S3 Access Points, and access control lists (ACLs) to manage access.
 
 
+![image](https://github.com/RajBehere0190/Amazon-S3-Bucket-Project/assets/117808263/fd1eb14e-e99a-4f36-b0af-deb3f0e57a9b)
 
 
