@@ -1,0 +1,3 @@
+Public access is granted to buckets and objects through bucket policies, access control lists (ACLs), or both. To help you manage public access to Amazon S3 resources,
+Amazon S3 provides settings to block public access. Amazon S3 Block Public Access settings can override ACLs and bucket policies so that you can enforce uniform limits 
+on public access to these resources. You can apply Block Public Access settings to individual buckets or to all buckets in your account.
