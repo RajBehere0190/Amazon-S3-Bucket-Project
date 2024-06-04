@@ -5,3 +5,6 @@ on public access to these resources. You can apply Block Public Access settings 
 To ensure that all of your Amazon S3 buckets and objects have their public access blocked, all four settings for Block Public Access are enabled by default when you 
 create a new bucket. We recommend that you turn on all four settings for Block Public Access for your account too. These settings block all public access for all current
 and future buckets.
+
+
+Before applying these settings, verify that your applications will work correctly without public access. If you require some level of public access to your buckets or objects
