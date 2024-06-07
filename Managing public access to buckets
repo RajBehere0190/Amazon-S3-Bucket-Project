@@ -1,3 +1,5 @@
+Managing public access to buckets
+
 Public access is granted to buckets and objects through bucket policies, access control lists (ACLs), or both. To help you manage public access to Amazon S3 resources,
 Amazon S3 provides settings to block public access. Amazon S3 Block Public Access settings can override ACLs and bucket policies so that you can enforce uniform limits 
 on public access to these resources. You can apply Block Public Access settings to individual buckets or to all buckets in your account.
@@ -14,3 +16,5 @@ However, we highly recommend keeping Block Public Access enabled. If you want to
 use Amazon CloudFront origin access control (OAC). Amazon CloudFront provides the capabilities required to set up a secure static website.Amazon S3 static websites support 
 only HTTP endpoints. Amazon CloudFront uses the durable storage of Amazon S3 while providing additional security headers, such as HTTPS. HTTPS adds security by encrypting 
 a normal HTTP request and protecting against common cyberattacks.
+
+Bucket configuration options
