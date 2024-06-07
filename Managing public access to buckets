@@ -10,3 +10,6 @@ Before applying these settings, verify that your applications will work correctl
 objects—for example, to host a static website, as described at Hosting a static website using Amazon S3—you can customize the individual settings to suit your storage
 use cases. For more information, see Blocking public access to your Amazon S3 storage.
 
+However, we highly recommend keeping Block Public Access enabled. If you want to keep all four Block Public Access settings enabled and host a static website, you can 
+use Amazon CloudFront origin access control (OAC). Amazon CloudFront provides the capabilities required to set up a secure static website.
+
