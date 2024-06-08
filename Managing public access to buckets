@@ -17,4 +17,9 @@ use Amazon CloudFront origin access control (OAC). Amazon CloudFront provides th
 only HTTP endpoints. Amazon CloudFront uses the durable storage of Amazon S3 while providing additional security headers, such as HTTPS. HTTPS adds security by encrypting 
 a normal HTTP request and protecting against common cyberattacks.
 
+
 Bucket configuration options
+
+Amazon S3 supports various options for you to configure your bucket. For example, you can configure your bucket for website hosting, add a configuration to manage the 
+lifecycle of objects in the bucket, and configure the bucket to log all access to the bucket. Amazon S3 supports subresources for you to store and manage the bucket 
+configuration information. You can use the Amazon S3 API to create and manage these subresources. However, you can also use the console or the AWS SDKs.
