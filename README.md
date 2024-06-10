@@ -1,4 +1,5 @@
 **Creating and Configuring S3 Buckets**
+
 Creating an S3 bucket
 
 To create an S3 bucket, you can use the AWS Management Console, AWS CLI (Command Line Interface), or AWS SDKs (Software Development Kits). You need to specify a globally unique bucket name and select the region where you want to create the bucket.
