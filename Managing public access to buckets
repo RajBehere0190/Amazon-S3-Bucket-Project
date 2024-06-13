@@ -1,4 +1,4 @@
-Managing public access to buckets
+**Managing public access to buckets**
 
 Public access is granted to buckets and objects through bucket policies, access control lists (ACLs), or both. To help you manage public access to Amazon S3 resources,
 Amazon S3 provides settings to block public access. Amazon S3 Block Public Access settings can override ACLs and bucket policies so that you can enforce uniform limits 
@@ -18,7 +18,7 @@ only HTTP endpoints. Amazon CloudFront uses the durable storage of Amazon S3 whi
 a normal HTTP request and protecting against common cyberattacks.
 
 
-Bucket configuration options
+**Bucket configuration options**
 
 Amazon S3 supports various options for you to configure your bucket. For example, you can configure your bucket for website hosting, add a configuration to manage the 
 lifecycle of objects in the bucket, and configure the bucket to log all access to the bucket. Amazon S3 supports subresources for you to store and manage the bucket 
