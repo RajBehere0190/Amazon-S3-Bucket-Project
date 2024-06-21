@@ -45,7 +45,7 @@ https://www.linkedin.com/posts/rajbehere_aws-s3-cloudcomputing-activity-72011181
 
 **The genral use case can be**
 
---Build a data lake--
+a.Build a data lake
 
 A data lake is a centralized repository that allows you to store all your structured and unstructured data at any scale. You can run data analytics, artificial intelligence (AI), machine learning (ML), and high-performance computing (HPC) applications to unlock the value of your data.
 
