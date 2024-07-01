@@ -16,6 +16,7 @@ Bucket-level permissions and policies
 Bucket-level permissions and policies define who can access and perform actions on the bucket. You can grant permissions using IAM (Identity and Access Management) policies, which allow fine-grained control over user access to the bucket and its objects.
 
 **Uploading and Managing Objects in S3 Buckets**
+
 Uploading objects to S3 buckets
 
 You can upload objects to an S3 bucket using various methods, including the AWS Management Console, AWS CLI, SDKs, and direct HTTP uploads. Each object is assigned a unique key (name) within the bucket to retrieve it later.
